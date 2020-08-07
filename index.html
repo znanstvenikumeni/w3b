@@ -14,6 +14,12 @@
 </head>
 <body class="frontpage">
 <div class="container">
+    <div class="navtoggle">
+            <a href="/">
+                <img src="https://znanstvenikumeni.org/wp-content/uploads/2019/05/zum-logo-black-w.png" height="60" alt="Together for Knowledge" class="logo">
+            </a>
+        <div class="navli"><a data-toggle="modal"  data-target="#mobileNav">Izbornik</a></div>
+    </div>
     <nav class="frontpagenav">
         <ul class="navul">
             <li class="navli-img">
@@ -48,24 +54,24 @@
             </div>
         <div class="col-md-4">
             <div class="rellax">
-                <img src="assets/Shore.png" style="max-width:600px;">
+                <img src="assets/Shore.png" id="shore">
             </div>
 
             <div class="rellax" id="ptica1" data-rellax-speed="7"
                  data-rellax-zindex="5">
-                <img src="assets/Ptica1.png" style="max-width: 100px;">
+                <img src="assets/Ptica1.png" class="ptica">
             </div>
             <div class="rellax" id="ptica2" data-rellax-speed="7"
                  data-rellax-zindex="5">
-                <img src="assets/Ptica2.png" style="max-width: 100px;">
+                <img src="assets/Ptica2.png" class="ptica">
             </div>
             <div class="rellax" id="ptica3" data-rellax-speed="7"
                  data-rellax-zindex="5">
-                <img src="assets/Ptica3.png" style="max-width: 100px;">
+                <img src="assets/Ptica3.png" class="ptica">
             </div>
             <div class="rellax" id="ptica4" data-rellax-speed="7"
                  data-rellax-zindex="5">
-                <img src="assets/Ptica4.png" style="max-width: 100px;">
+                <img src="assets/Ptica4.png" class="ptica">
             </div>
         </div>
     </section>
@@ -372,6 +378,37 @@
                         <p>Područje znanstvenog djelovanja uključuje istraživanje strukture i interakcija biološki značajnih molekula (sustava) korištenjem računalnih metoda molekularnog modeliranja u svrhu razumijevanja bioloških procesa na molekularnoj razini. Više na <a href="https://www.pmf.unizg.hr/chem/branimir.bertosa">web stranici na Kemijskom odsjeku</a></p>
                     </div>
                 </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-fullscreen-xs-down" id="mobileNav" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color:#fff;">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                  <h1 class="hugetext">Izbornik</h1>
+                <nav>
+                <ul class="navul navul-mini">
+                    <li class="navli">
+                        <a href="/">Naslovnica</a>
+                    </li>
+                    <li class="navli">
+                        <a href="/o-natjecanju.html">O natjecanju</a>
+                    </li>
+                    <li class="navli">
+                        <a href="/kontakt.html">Kontakt</a>
+                    </li>
+                    <li class="navli">
+                        <a href="/blog.html">Blog</a>
+                    </li>
+                </ul>
+                </nav>
             </div>
 
         </div>
